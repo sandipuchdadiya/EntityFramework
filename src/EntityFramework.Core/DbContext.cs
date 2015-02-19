@@ -401,9 +401,8 @@ namespace Microsoft.Data.Entity
         }
 
         /// <summary>
-        ///     Gets an <see cref="EntityEntry" /> for the given entity providing access to
-        ///     information the context is tracking for the given the entity and the ability
-        ///     to perform actions on the entity.
+        ///     Gets an <see cref="EntityEntry" /> for the given entity. The entry provides 
+        ///     access to change tracking information and operations for the entity.
         /// </summary>
         /// <param name="entity"> The entity to get the entry for. </param>
         /// <returns> The entry for the given entity. </returns>
