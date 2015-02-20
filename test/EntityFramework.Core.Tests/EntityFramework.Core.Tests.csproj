@@ -128,6 +128,7 @@
     <Compile Include="Metadata\MetadataBuilderTest.cs" />
     <Compile Include="Metadata\ModelConventions\ConventionsDispatcherTest.cs" />
     <Compile Include="Metadata\ModelConventions\ForeignKeyPropertyDiscoveryConventionTest.cs" />
+    <Compile Include="Metadata\ModelConventions\KeyConventionTest.cs" />
     <Compile Include="Metadata\ModelConventions\RelationshipDiscoveryConventionTest.cs" />
     <Compile Include="Metadata\NavigationExtensionsTest.cs" />
     <Compile Include="Extensions\QueryableExtensionsTest.cs" />
@@ -155,7 +156,7 @@
     <Compile Include="Metadata\NavigationTest.cs" />
     <Compile Include="Metadata\ObjectArrayValueReaderTest.cs" />
     <Compile Include="Metadata\PropertyTest.cs" />
-    <Compile Include="Metadata\ModelConventions\KeyConventionTest.cs" />
+    <Compile Include="Metadata\ModelConventions\KeyDiscoveryConventionTest.cs" />
     <Compile Include="Metadata\ModelConventions\PropertiesConventionTest.cs" />
     <Compile Include="Query\TaskResultAsyncEnumerableTest.cs" />
     <Compile Include="Storage\DataStoreSelectorTest.cs" />
